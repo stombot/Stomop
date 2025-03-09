@@ -204,7 +204,7 @@ def show_user_id(message):
     bot.reply_to(message, response)
 
 # Function to handle the reply when free users run the /bgmi command
-def start_attack_reply(message, target, port, time):350
+def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
